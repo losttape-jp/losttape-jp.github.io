@@ -24,3 +24,5 @@ p, li { font-size: 15px; }
 a { color: var(--fg); }
 nav { display: flex; gap: 16px; flex-wrap: wrap; margin: 16px 0; }
 footer { margin-top: 56px; color: var(--dim); font-size: 13px; }
+.yt { display: inline-flex; align-items: center; gap: 8px; padding: 4px 12px; border: 1px solid var(--line); border-radius: 999px; font-size: 13px; }
+.yt-mark { display: inline-grid; place-items: center; width: 22px; height: 16px; border-radius: 4px; background: #ff0000; color: #fff; font-size: 9px; }
