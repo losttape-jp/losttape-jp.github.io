@@ -1,0 +1,26 @@
+:root {
+  --bg: #111012;
+  --fg: #ece8dc;
+  --dim: #9a958a;
+  --accent: #d9534f;
+  --line: #2a282c;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif;
+  line-height: 1.8;
+}
+main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+header { display: flex; align-items: center; gap: 16px; margin-bottom: 32px; }
+header img { width: 72px; height: 72px; border-radius: 12px; }
+h1 { font-size: 28px; margin: 0; letter-spacing: 0.04em; }
+h1 .rec { color: var(--accent); font-size: 14px; vertical-align: middle; margin-left: 8px; }
+h2 { font-size: 18px; margin: 40px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+p, li { font-size: 15px; }
+.en { color: var(--dim); }
+a { color: var(--fg); }
+nav { display: flex; gap: 16px; flex-wrap: wrap; margin: 16px 0; }
+footer { margin-top: 56px; color: var(--dim); font-size: 13px; }
